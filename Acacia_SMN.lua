@@ -1,5 +1,5 @@
 function get_sets()
-	sets.perpetuation = {main='Chatoyant Staff', ammo='Eminent Sachet', head="Convoker's Horn", neck="Caller's Pendant", lear='Ruby Earring', rear='Moonshade Earring', body='Glyphic Doublet', hands='Adhara Gages', rring="Evoker's Ring", back='Conveyance Cape', waist='Mujin Obi', legs='Nares Trews', feet='Con. Pigaches +1'}
+    sets.perpetuation = {main='Chatoyant Staff', ammo='Eminent Sachet', head="Convoker's Horn", neck="Caller's Pendant", lear='Ruby Earring', rear='Moonshade Earring', body='Glyphic Doublet', hands='Adhara Gages', rring="Evoker's Ring", back='Conveyance Cape', waist='Mujin Obi', legs='Nares Trews', feet='Con. Pigaches +1'}
     sets.perpetuation['Carbuncle'] = {main='Chatoyant Staff', ammo='Eminent Sachet', head="Convoker's Horn", neck="Caller's Pendant", lear='Ruby Earring', rear='Moonshade Earring', body='Hagondes Coat +1', hands='Carbuncle Mitts', rring="Evoker's Ring", back='Conveyance Cape', waist='Mujin Obi', legs='Nares Trews', feet='Mdk. Crackows +1'}
     sets.perpetuation['Fenrir'] = {main='Chatoyant Staff', ammo='Eminent Sachet', head="Convoker's Horn", neck="Caller's Pendant", lear='Ruby Earring', rear='Moonshade Earring', body='Glyphic Doublet', hands='Glyphic Bracers +1', rring="Evoker's Ring", back='Conveyance Cape', waist='Mujin Obi', legs='Nares Trews', feet='Con. Pigaches +1'}
     sets.perpetuation['Garuda'] = {main='Vayuvata III', ammo='Eminent Sachet', head="Convoker's Horn", neck="Caller's Pendant", lear='Ruby Earring', rear='Moonshade Earring', body='Hagondes Coat +1', hands='Adhara Gages', rring="Evoker's Ring", back='Conveyance Cape', waist='Mujin Obi', legs='Nares Trews', feet='Con. Pigaches +1'}
@@ -7,21 +7,21 @@ function get_sets()
     sets.favor = {main='Chatoyant Staff', sub='Vox Grip', ammo='Eminent Sachet', head="Caller's Horn +2", neck="Caller's Pendant", lear='Smn. Earring', rear='Moonshade Earring', body='Call. Doublet +2', hands='Glyphic Bracers +1', lring='Fervor Ring', rring="Evoker's Ring", back='Conveyance Cape', waist='Cimmerian Sash', legs='Nares Trews', feet='Con. Pigaches +1'}
     sets.spirit = {main='Chatoyant Staff', sub='Vox Grip', ammo='Eminent Sachet', head="Convoker's Horn", neck="Caller's Pendant", lear='Smn. Earring', rear='Moonshade Earring', body='Call. Doublet +2', hands='Glyphic Bracers +1', lring='Fervor Ring', rring="Evoker's Ring", back='Conveyance Cape', waist='Cimmerian Sash', legs='Glyphic Spats', feet='Mdk. Crackows +1'}
     sets.resting = {main='Chatoyant Staff', ammo='Mana Ampulla', head="Convoker's Horn", neck='Eidolon Pendant', lear='Magnetic Earring', rear='Relaxing Earring', body='Hagondes Coat +1', hands='Nares Cuffs', back='Vita Cape', waist='Hierarch Belt', legs='Nares Trews', feet='Chelona Boots'}
-	sets.idle = {head="Convoker's Horn", rear='Moonshade Earring', body='Hagondes Coat +1', legs='Nares Trews'}
+    sets.idle = {head="Convoker's Horn", rear='Moonshade Earring', body='Hagondes Coat +1', legs='Nares Trews'}
     sets.speed = {legs='Tatsu. Sitagoromo'}
 
-	sets.precast = {}
+    sets.precast = {}
     sets.precast.delay = {ammo='Eminent Sachet', head="Convoker's Horn", body='Glyphic Doublet', hands='Glyphic Bracers +1', back="Tiresias' Cape", feet='Glyph. Pigaches +1'}
     sets.precast.cede = {hands='Call. Bracers +2'}
     sets.precast.siphon = {sub='Vox Grip', ammo='Eminent Sachet', head="Convoker's Horn", neck="Caller's Pendant", lear='Smn. Earring', rear='Gifted Earring', body='Anhur Robe', hands='Glyphic Bracers +1', lring='Fervor Ring', rring="Evoker's Ring", back='Conveyance Cape', waist='Cimmerian Sash', legs='Tatsu. Sitagoromo', feet="Caller's Pgch. +2"}
 
-	sets.midcast = {}
+    sets.midcast = {}
     sets.midcast.cure = {main='Teiwaz', head="Marduk's Tiara +1", neck="Colossus's Torque", lear='Magnetic Earring', rear='Beatific Earring', body='Chelona Blazer', hands='Bokwus Gloves', back='Vita Cape', legs='Nares Trews'}
-	sets.midcast.stoneskin = {neck='Stone Gorget', lear='Magnetic Earring', rear='Earthcry Earring', back='Vita Cape', waist='Siegel Sash', legs='Shedir Seraweels'}
+    sets.midcast.stoneskin = {neck='Stone Gorget', lear='Magnetic Earring', rear='Earthcry Earring', back='Vita Cape', waist='Siegel Sash', legs='Shedir Seraweels'}
     sets.midcast.regen = {head="Marduk's Tiara +1"}
 
-	sets.pet_midcast = {}
-	sets.pet_midcast.physical = {sub='Vox Grip', ammo='Eminent Sachet', head="Convoker's Horn", neck='Sacrifice Torque', lear='Ruby Earring', rear='Gifted Earring', body='Con. Doublet +1', hands='Glyphic Bracers +1', lring='Fervor Ring', rring="Evoker's Ring", back='Conveyance Cape', waist='Mujin Obi', legs='Ngen Seraweels', feet='Con. Pigaches +1'}
+    sets.pet_midcast = {}
+    sets.pet_midcast.physical = {sub='Vox Grip', ammo='Eminent Sachet', head="Convoker's Horn", neck='Sacrifice Torque', lear='Ruby Earring', rear='Gifted Earring', body='Con. Doublet +1', hands='Glyphic Bracers +1', lring='Fervor Ring', rring="Evoker's Ring", back='Conveyance Cape', waist='Mujin Obi', legs='Ngen Seraweels', feet='Con. Pigaches +1'}
     sets.pet_midcast.magic = {main='Astralwatcher', sub='Vox Grip', ammo='Eminent Sachet', head='Glyphic Horn', neck='Eidolon Pendant', lear='Smn. Earring', rear='Gifted Earring', body='Con. Doublet +1', hands='Nares Cuffs', lring='Fervor Ring', rring="Evoker's Ring", back="Tiresias' Cape", waist="Caller's Sash", legs="Ngen Seraweels", feet='Hagondes Sabots'}
     sets.pet_midcast.magic.tp = {main='Astralwatcher', sub='Vox Grip', ammo='Eminent Sachet', head='Glyphic Horn', neck='Eidolon Pendant', lear='Smn. Earring', rear='Gifted Earring', body='Con. Doublet +1', hands='Nares Cuffs', lring='Fervor Ring', rring="Evoker's Ring", back="Tiresias' Cape", waist="Caller's Sash", legs="Caller's Spats +2", feet='Hagondes Sabots'}
     sets.pet_midcast.accuracy = {sub='Vox Grip', ammo='Eminent Sachet', head="Convoker's Horn", neck="Caller's Pendant", lear='Smn. Earring', rear='Gifted Earring', body='Anhur Robe', hands='Glyphic Bracers +1', lring='Fervor Ring', rring="Evoker's Ring", back='Conveyance Cape', waist='Cimmerian Sash', legs='Glyphic Spats', feet='Mdk. Crackows +1'}
@@ -37,7 +37,7 @@ function get_sets()
     bp_duration = {['Glittering Ruby']=true, ['Shining Ruby']=true, ['Frost Armor']=true, ['Rolling Thunder']=true, ['Crimson Howl']=true, ['Lightning Armor']=true, ['Ecliptic Growl']=true, ['Hastega']=true, ['Noctoshield']=true, ['Ecliptic Howl']=true, ['Dream Shroud']=true, ['Earthen Armor']=true, ['Fleet Wind']=true, ['Heavenward Howl']=true}
     bp_boon = {['Earthen Ward']=true, ['Aerial Armor']=true, ['Raise II']=true, ['Reraise II']=true, ['Healing Ruby']=true, ['Whispering Wind']=true, ['Spring Water']=true, ['Healing Ruby II']=true}
     bp_skill = {['Perfect Defense']=true, ['Inferno Howl']=true, ['Soothing Ruby']=true}
-    
+
     spirit_element = {['Fire']='Fire Spirit', ['Earth']='Earth Spirit', ['Water']='Water Spirit', ['Wind']='Air Spirit', ['Ice']='Ice Spirit', ['Lightning']='Thunder Spirit', ['Light']='Light Spirit', ['Dark']='Dark Spirit'}
     spirit_conflict = {['Fire']='Ice', ['Earth']='Lightning', ['Water']='Fire', ['Wind']='Earth', ['Ice']='Wind', ['Lightning']='Water', ['Light']='Dark', ['Dark']='Light'}
 end
