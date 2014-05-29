@@ -1,4 +1,6 @@
 function get_sets()
+    include('common_sets.lua')
+
     sets.idle = {main='Eminent Scimitar', sub='Xiutleato', ammo='Mavi Tathlum', head='Espial Cap', neck='Mavi Scarf', lear='Brutal Earring', rear='Suppanomimi', body='Luhlaza Jubbah', hands='Espial Bracers', lring="Epona's Ring", rring='Rajas Ring', back='Atheling Mantle', waist='Dynamic Belt +1', legs='Espial Hose', feet='Espial Socks'}
 	sets.resting = {neck='Eidolon Pendant', lear='Magnetic Earring', rear='Relaxing Earring', body='Luhlaza Jubbah', back='Vita Cape', waist='Hierarch Belt', feet='Chelona Boots'}
     sets.speed = {legs='Crimson Cuisses'}
@@ -53,7 +55,7 @@ function check_action(action)
         local player = windower.ffxi.get_player()
         if player.in_combat then
             local target = windower.ffxi.get_mob_by_index(player.target_index)
-            if target.id == action.actor_id and target.valid_target then
+            if target.valid_target and target.is_npc and target.id == action.actor_id then
                 windower.send_command('input /ma "Sudden Lunge" <t>')
             end
         end

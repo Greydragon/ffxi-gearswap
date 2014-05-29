@@ -1,14 +1,33 @@
 function get_sets()
-    sets.melee = {main='Sandung', sub='Atoyac', range="Raider's Bmrng.", head='Espial Cap', neck='Tlamiztli Collar', lear='Brutal Earring', rear='Suppanomimi', body='Espial Gambison', hands='Espial Bracers', lring="Epona's Ring", rring='Rajas Ring', back='Canny Cape', waist='Dynamic Belt +1', legs='Espial Hose', feet='Espial Socks'}
-    sets.th = {main='Sandung', sub="Thief's Knife", range="Raider's Bmrng.", head='Espial Cap', neck='Tlamiztli Collar', lear='Brutal Earring', rear='Suppanomimi', body='Espial Gambison', hands='Plun. Armlets', lring="Epona's Ring", rring='Rajas Ring', back='Canny Cape', waist='Dynamic Belt +1', legs='Espial Hose', feet='Raid. Poulaines +2'}
+    include('common_sets.lua')
+
+    sets.idle = {main='Sandung', sub='Atoyac', range="Raider's Bmrng.", head='Espial Cap', neck='Tlamiztli Collar', lear='Brutal Earring', rear='Suppanomimi', body='Thaumas Coat', hands='Espial Bracers', lring="Epona's Ring", rring='Rajas Ring', back='Canny Cape', waist='Dynamic Belt +1', legs='Espial Hose', feet='Espial Socks'}
+    sets.th = {main='Sandung', sub="Thief's Knife", hands='Plun. Armlets', feet='Raid. Poulaines +2'}
     sets.speed = {feet='Skd. Jambeaux +1'}
+
+    sets.precast = {}
+    sets.precast.ws = {body='Espial Gambison', rring='Blobnag Ring'}
+end
+
+function status_change(new, old)
+    if new == 'Idle' then
+        equip(sets.idle)
+    end
 end
 
 function precast(spell)
-    if spell.name == 'Spectral Jig' and buffactive["Sneak"] then
+    if spell.type == 'Weaponskill' then
+        equip(sets.precast.ws)
+    elseif spell.name == 'Spectral Jig' and buffactive["Sneak"] then
         windower.ffxi.cancel_buff(71)
         cancel_spell()
         windower.send_command('wait 1; input /ja "Spectral Jig" <me>')
+    end
+end
+
+function aftercast(spell)
+    if spell.type == 'Weaponskill' then
+        equip(sets.idle)
     end
 end
 
@@ -17,7 +36,7 @@ function check_action(action)
         local player = windower.ffxi.get_player()
         if player.in_combat then
             local target = windower.ffxi.get_mob_by_index(player.target_index)
-            if target.id == action.actor_id and target.valid_target then
+            if target.valid_target and target.is_npc and target.id == action.actor_id then
                 windower.send_command('input /ja "Violent Flourish" <t>')
             end
         end
