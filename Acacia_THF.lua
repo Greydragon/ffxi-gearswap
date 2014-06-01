@@ -1,8 +1,9 @@
 function get_sets()
     include('common_sets.lua')
 
-    sets.idle = {main='Sandung', sub='Atoyac', range="Raider's Bmrng.", head='Espial Cap', neck='Tlamiztli Collar', lear='Brutal Earring', rear='Suppanomimi', body='Thaumas Coat', hands='Espial Bracers', lring="Epona's Ring", rring='Rajas Ring', back='Canny Cape', waist='Dynamic Belt +1', legs='Espial Hose', feet='Espial Socks'}
+    sets.idle = {main='Sandung', sub='Atoyac', range="Raider's Bmrng.", head='Espial Cap', neck='Portus Collar', lear='Brutal Earring', rear='Suppanomimi', body='Thaumas Coat', hands='Espial Bracers', lring="Epona's Ring", rring='Rajas Ring', back='Canny Cape', waist='Windbuffet Belt', legs='Espial Hose', feet='Espial Socks'}
     sets.th = {main='Sandung', sub="Thief's Knife", hands='Plun. Armlets', feet='Raid. Poulaines +2'}
+    sets.accuracy = {body='Espial Gambison', waist='Dynamic Belt +1'}
     sets.speed = {feet='Skd. Jambeaux +1'}
 
     sets.precast = {}

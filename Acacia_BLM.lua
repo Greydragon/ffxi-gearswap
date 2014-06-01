@@ -1,7 +1,7 @@
 function get_sets()
     include('common_sets.lua')
 
-    sets.idle = {main='Eminent Staff', sub='Elementa Grip', head='Wayfarer Circlet', neck="Colossus's Torque", lear='Strophadic Earring', rear='Moldavite Earring', body='Wayfarer Robe', hands='Wayfarer Cuffs', lring='Strendu Ring', rring="Balrahn's Ring", back='Vita Cape', waist='Olympus Sash', legs='Wayfarer Slops', feet='Wayfarer Clogs'}
+    sets.idle = {main='Eminent Staff', sub='Elementa Grip', ammo='Mana Ampulla', head='Wayfarer Circlet', neck="Colossus's Torque", lear='Strophadic Earring', rear='Moldavite Earring', body='Wayfarer Robe', hands='Wayfarer Cuffs', lring='Strendu Ring', rring="Balrahn's Ring", back='Vita Cape', waist='Olympus Sash', legs='Wayfarer Slops', feet='Wayfarer Clogs'}
     sets.speed = {legs='Tatsu. Sitagoromo'}
 end
 

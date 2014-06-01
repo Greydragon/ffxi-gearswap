@@ -1,7 +1,7 @@
 function get_sets()
     include('common_sets.lua')
 
-    sets.idle = {main='Eminent Scimitar', sub='Xiutleato', ammo='Mavi Tathlum', head='Espial Cap', neck='Mavi Scarf', lear='Brutal Earring', rear='Suppanomimi', body='Luhlaza Jubbah', hands='Espial Bracers', lring="Epona's Ring", rring='Rajas Ring', back='Atheling Mantle', waist='Dynamic Belt +1', legs='Espial Hose', feet='Espial Socks'}
+    sets.idle = {main='Eminent Scimitar', sub='Xiutleato', ammo='Mavi Tathlum', head='Espial Cap', neck='Portus Collar', lear='Brutal Earring', rear='Suppanomimi', body='Luhlaza Jubbah', hands='Espial Bracers', lring="Epona's Ring", rring='Rajas Ring', back='Atheling Mantle', waist='Dynamic Belt +1', legs='Espial Hose', feet='Espial Socks'}
 	sets.resting = {neck='Eidolon Pendant', lear='Magnetic Earring', rear='Relaxing Earring', body='Luhlaza Jubbah', back='Vita Cape', waist='Hierarch Belt', feet='Chelona Boots'}
     sets.speed = {legs='Crimson Cuisses'}
 

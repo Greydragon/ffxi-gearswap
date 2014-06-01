@@ -1,0 +1,132 @@
+<spellcast>
+  <sets>
+    <group name="fishing">
+      <set name="armor">
+            <ranged>Ebisu Fishing Rod</ranged>
+            <neck>Fisher's Torque</neck>
+            <body>Fisherman's Smock</body>
+            <hands>Fsh. Gloves</hands>
+            <lring>Noddy Ring</lring>
+            <lring>Puffin Ring</lring>
+            <waist>Fisher's Rope</waist>
+            <legs>Fisherman's Hose</legs>
+            <feet>Waders</feet>
+        </set>
+    </group>
+    <group name="chocobo">
+        <set name="armor">
+            <main>Chocobo Wand</main>
+            <neck>Chocobo Torque</neck>
+            <body>Blue Race Silks</body>
+            <hands>Chocobo Gloves</hands>
+            <waist>Chocobo Rope</waist>
+            <legs>Chocobo Hose</legs>
+            <feet>Chocobo Boots</feet>
+        </set>
+    </group>
+    <group name="crafting">
+        <set name="armor">
+            <main>Caduceus</main>
+            <main>Hocho</main>
+            <neck>Alchemst. Torque</neck>
+            <neck>Tanner's Torque</neck>
+            <body>Alchemist's Smock</body>
+            <lring>Craftkeeper's Ring</lring>
+            <lring>Craftmaster's Ring</lring>
+            <lring>Artificer's Ring</lring>
+            <back>Shaper's Shawl</back>
+        </set>
+    </group>
+    <group name="helm">
+        <set name="armor">
+            <neck>Field Torque</neck>
+            <body>Field Tunica</body>
+            <body>Trench Tunic</body>
+            <hands>Field Gloves</hands>
+            <hands>Treefeller Gloves</hands>
+            <waist>Field Rope</waist>
+            <legs>Field Hose</legs>
+            <legs>Dredger Hose</legs>
+            <feet>Field Boots</feet>
+            <feet>Agrarian Boots</feet>
+        </set>
+    </group>
+    <group name="blm">
+        <set name="armor">
+            <main>Eminent Staff</main>
+            <sub>Elementa Grip</sub>
+            <ammo>Mana Ampulla</ammo>
+            <head>Wayfarer Circlet</head>
+            <neck>Colossus's Torque</neck>
+            <lear>Strophadic Earring</lear>
+            <lear>Moldavite Earring</lear>
+            <body>Wayfarer Robe</body>
+            <hands>Wayfarer Cuffs</hands>
+            <lring>Strendu Ring</lring>
+            <lring>Balrahn's Ring</lring>
+            <back>Vita Cape</back>
+            <waist>Olympus Sash</waist>
+            <legs>Wayfarer Slops</legs>
+            <feet>Wayfarer Clogs</feet>
+        </set>
+    </group>
+    <group name="blu">
+        <set name="armor">
+            <main>Eminent Scimitar</main>
+            <main>Xiutleato</main>
+            <ammo>Mavi Tathlum</ammo>
+            <head>Espial Cap</head>
+            <head>Mavi Kavuk +2</head>
+            <neck>Portus Collar</neck>
+            <neck>Mavi Scarf</neck>
+            <neck>Eidolon Pendant</neck>
+            <lear>Suppanomimi</lear>
+            <lear>Magnetic Earring</lear>
+            <lear>Relaxing Earring</lear>
+            <lear>Brutal Earring</lear>
+            <body>Luhlaza Jubbah</body>
+            <body>Chelona Blazer</body>
+            <hands>Espial Bracers</hands>
+            <lring>Epona's Ring</lring>
+            <lring>Rajas Ring</lring>
+            <lring>Balrahn's Ring</lring>
+            <back>Atheling Mantle</back>
+            <back>Vita Cape</back>
+            <waist>Dynamic Belt +1</waist>
+            <waist>Hierarch Belt</waist>
+            <legs>Espial Hose</legs>
+            <legs>Crimson Cuisses</legs>
+            <legs>Mavi Tayt +2</legs>
+            <feet>Chelona Boots</feet>
+            <feet>Espial Socks</feet>
+            <feet>Assim. Charuqs</feet>
+        </set>
+    </group>
+    <group name="thf">
+        <set name="armor">
+            <main>Sandung</main>
+            <main>Thief's Knife</main>
+            <main>Atoyac</main>
+            <ranged>Raider's Bmrng.</ranged>
+            <head>Espial Cap</head>
+            <neck>Portus Collar</neck>
+            <lear>Suppanomimi</lear>
+            <lear>Brutal Earring</lear>
+            <body>Espial Gambison</body>
+            <body>Thaumas Coat</body>
+            <hands>Plun. Armlets</hands>
+            <hands>Espial Bracers</hands>
+            <lring>Epona's Ring</lring>
+            <lring>Rajas Ring</lring>
+            <lring>Blobnag Ring</lring>
+            <back>Canny Cape</back>
+            <waist>Dynamic Belt +1</waist>
+            <waist>Windbuffet Belt</waist>
+            <legs>Espial Hose</legs>
+            <feet>Raid. Poulaines +2</feet>
+            <feet>Espial Socks</feet>
+            <feet>Skd. Jambeaux +1</feet>
+        </set>
+    </group>
+  </sets>
+</spellcast>
