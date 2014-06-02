@@ -134,17 +134,16 @@ end
 function pet_midcast(spell)
     if spell.type == 'BloodPactRage' or spell.type == 'BloodPactWard' then
         if bp_physical:contains(spell.name) then
-            equip(sets.pet_midcast.physical.attack)
+            equip(sets.pet_midcast.physical, sets.pet_midcast.physical.attack)
         elseif bp_magic_tp:contains(spell.name) then
+            equip(sets.pet_midcast.magical, sets.pet_midcast.magical.attack)
             if pet.tp < 140 then
                 equip(sets.pet_midcast.magical.attack.tp)
-            else
-                equip(sets.pet_midcast.magical.attack)
             end
         elseif bp_magic:contains(spell.name) or bp_hybrid:contains(spell.name) then
-            equip(sets.pet_midcast.magical.attack)
+            equip(sets.pet_midcast.magical, sets.pet_midcast.magical.attack)
         elseif bp_debuff:contains(spell.name) then
-            equip(sets.pet_midcast.magical.accuracy.max)
+            equip(sets.pet_midcast.magical, sets.pet_midcast.magical.accuracy, sets.pet_midcast.magical.accuracy.max)
         elseif bp_buff:contains(spell.name) then
             equip(sets.pet_midcast.skill)
         elseif bp_healing:contains(spell.name) then
@@ -152,7 +151,7 @@ function pet_midcast(spell)
         elseif bp_bloodboon:contains(spell.name) then
             equip(sets.pet_midcast.bloodboon)
         elseif bp_skill:contains(spell.name) then
-            equip(sets.pet_midcast.skill.max)
+            equip(sets.pet_midcast.skill, sets.pet_midcast.skill.max)
         end
     end
 end
