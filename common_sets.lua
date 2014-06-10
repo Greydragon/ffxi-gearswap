@@ -8,4 +8,6 @@ sets.crafting = {lring="Craftkeeper's Ring", rring="Artificer's Ring", back="Sha
 sets.crafting.hq = {lring="Craftmaster's Ring"}
 sets.crafting.alchemy = {main='Caduceus', neck='Alchemst. Torque', body="Alchemist's Smock"}
 sets.crafting.leather = {neck="Tanner's Torque"}
+sets.crafting.smithing = {neck="Smithy's Torque"}
+sets.crafting.bone = {neck="Boneworker's Torque"}
 sets.crafting.cooking = {main='Hocho'}
