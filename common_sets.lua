@@ -4,9 +4,11 @@ sets.helm.havesting = {body='Trench Tunic', feet='Agrarian Boots'}
 sets.helm.logging = {body='Trench Tunic', hands='Treefeller Gloves'}
 sets.helm.mining = {body='Trench Tunic', legs='Dredger Hose'}
 sets.chocobo = {main='Chocobo Wand', neck='Chocobo Torque', body='Blue Race Silks', hands='Chocobo Gloves', waist='Chocobo Rope', legs='Chocobo Hose', feet='Chocobo Boots'}
+sets.chocobo.skill = {body='S. Blue Race Silks'}
 sets.crafting = {lring="Craftkeeper's Ring", rring="Artificer's Ring", back="Shaper's Shawl"}
 sets.crafting.hq = {lring="Craftmaster's Ring"}
 sets.crafting.alchemy = {main='Caduceus', neck='Alchemst. Torque', body="Alchemist's Smock"}
+sets.crafting.alchemy.nq = {lring="Alchemist's Ring"}
 sets.crafting.leather = {neck="Tanner's Torque"}
 sets.crafting.smithing = {neck="Smithy's Torque"}
 sets.crafting.bone = {neck="Boneworker's Torque"}

@@ -18,6 +18,7 @@
             <main>Chocobo Wand</main>
             <neck>Chocobo Torque</neck>
             <body>Blue Race Silks</body>
+            <body>S. Blue Race Silks</body>
             <hands>Chocobo Gloves</hands>
             <waist>Chocobo Rope</waist>
             <legs>Chocobo Hose</legs>
@@ -36,6 +37,7 @@
             <lring>Craftkeeper's Ring</lring>
             <lring>Craftmaster's Ring</lring>
             <lring>Artificer's Ring</lring>
+            <lring>Alchemist's Ring</lring>
             <back>Shaper's Shawl</back>
         </set>
     </group>
