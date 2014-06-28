@@ -61,7 +61,7 @@
             <sub>Elementa Grip</sub>
             <ammo>Mana Ampulla</ammo>
             <head>Wayfarer Circlet</head>
-            <neck>Colossus's Torque</neck>
+            <neck>Quanpur Necklace</neck>
             <lear>Strophadic Earring</lear>
             <lear>Moldavite Earring</lear>
             <body>Wayfarer Robe</body>
@@ -69,7 +69,7 @@
             <lring>Strendu Ring</lring>
             <lring>Balrahn's Ring</lring>
             <back>Vita Cape</back>
-            <waist>Olympus Sash</waist>
+            <waist>Sekhmet Corset</waist>
             <legs>Wayfarer Slops</legs>
             <feet>Wayfarer Clogs</feet>
         </set>
@@ -95,6 +95,7 @@
             <lring>Rajas Ring</lring>
             <lring>Balrahn's Ring</lring>
             <back>Atheling Mantle</back>
+            <back>Cornflower Cape</back>
             <back>Vita Cape</back>
             <waist>Dynamic Belt +1</waist>
             <waist>Hierarch Belt</waist>
@@ -109,7 +110,6 @@
     <group name="thf">
         <set name="armor">
             <main>Sandung</main>
-            <main>Thief's Knife</main>
             <main>Atoyac</main>
             <ranged>Raider's Bmrng.</ranged>
             <head>Espial Cap</head>
@@ -118,8 +118,7 @@
             <lear>Brutal Earring</lear>
             <body>Espial Gambison</body>
             <body>Thaumas Coat</body>
-            <hands>Plun. Armlets</hands>
-            <hands>Espial Bracers</hands>
+            <hands>Plun. Armlets +1</hands>
             <lring>Epona's Ring</lring>
             <lring>Rajas Ring</lring>
             <lring>Blobnag Ring</lring>

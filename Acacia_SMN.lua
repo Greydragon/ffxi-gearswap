@@ -19,7 +19,7 @@ function get_sets()
     sets.precast.siphon = {sub='Vox Grip', ammo='Seraphicaller', head='Con. Horn +1', neck="Caller's Pendant", lear='Smn. Earring', rear='Gifted Earring', body='Anhur Robe', hands='Glyphic Bracers +1', lring='Fervor Ring', rring="Evoker's Ring", back='Conveyance Cape', waist='Cimmerian Sash', legs='Tatsu. Sitagoromo', feet="Caller's Pgch. +2"}
 
     sets.midcast = {}
-    sets.midcast.cure = {main='Arka IV', head="Marduk's Tiara +1", neck="Colossus's Torque", lear='Magnetic Earring', rear='Beatific Earring', hands='Weath. Cuffs +1', lring="Sirona's Ring", rring="Haoma's Ring", back='Vita Cape', legs='Nares Trews'}
+    sets.midcast.cure = {main='Arka IV', head="Marduk's Tiara +1", neck="Colossus's Torque", lear='Magnetic Earring', rear='Beatific Earring', hands='Weath. Cuffs +1', lring="Sirona's Ring", rring="Haoma's Ring", back='Pahtli Cape', legs='Nares Trews'}
     sets.midcast.stoneskin = {neck='Stone Gorget', lear='Magnetic Earring', rear='Earthcry Earring', back='Vita Cape', waist='Siegel Sash', legs='Shedir Seraweels'}
     sets.midcast.aquaveil = {legs='Shedir Seraweels'}
     sets.midcast.regen = {head="Marduk's Tiara +1"}
@@ -27,7 +27,7 @@ function get_sets()
     sets.pet_midcast = {}
     sets.pet_midcast.physical = {sub='Vox Grip', ammo='Seraphicaller', head='Con. Horn +1', rear='Gifted Earring', hands='Glyphic Bracers +1', lring='Fervor Ring', rring="Evoker's Ring", back='Conveyance Cape'}
     sets.pet_midcast.physical.attack = {neck='Sacrifice Torque', lear='Ruby Earring', body='Con. Doublet +1', waist='Mujin Obi', legs='Ngen Seraweels', feet='Con. Pigaches +1'}
-    sets.pet_midcast.physical.accuracy = {neck="Caller's Pendant", lear='Smn. Earring', body='Call. Doublet +2', waist='Cimmerian Sash', legs="Convoker's Spats", feet='Mdk. Crackows +1'}
+    sets.pet_midcast.physical.accuracy = {neck="Caller's Pendant", lear='Smn. Earring', body='Call. Doublet +2', waist='Cimmerian Sash', legs="Con. Spats +1", feet='Mdk. Crackows +1'}
     sets.pet_midcast.magical = {sub='Vox Grip', ammo='Seraphicaller', lear='Smn. Earring', rear='Gifted Earring', lring='Fervor Ring', rring="Evoker's Ring"}
     sets.pet_midcast.magical.attack = {main='Astralwatcher', head='Glyphic Horn +1', neck='Eidolon Pendant', body='Con. Doublet +1', hands='Nares Cuffs', back="Tiresias' Cape", waist="Caller's Sash", legs="Ngen Seraweels", feet='Hag. Sabots +1'}
     sets.pet_midcast.magical.attack.tp = {legs="Caller's Spats +2"}
